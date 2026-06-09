@@ -35,7 +35,7 @@ ul {
 li {
   display: flex;
   align-items: flex-start;
-  gap: calc(10px);
+  gap: calc(0.625rem);
   margin-block-end: calc(0.7rem);
 }
 li::before {
@@ -62,7 +62,7 @@ form.email-form {
 .email {
   border-radius: calc(0.4rem);
   padding: calc(1rem) calc(1rem);
-  border: calc(0.01rem) solid hsl(0, 0%, 58%);
+  border: calc(0.01rem) solid var(--color-Grey);
 }
 input:focus {
   outline: none;
@@ -72,10 +72,6 @@ input:focus {
 .subscription-btn:hover,
 .subscription-btn:active {
   cursor: pointer;
-}
-.subscription-btn:active,
-.subscription-btn:hover {
-  background-color: var(--color-Red);
 }
 .subscription-btn {
   margin-block-start: calc(1rem);
@@ -87,6 +83,10 @@ input:focus {
   border-radius: calc(0.6rem);
   border: none;
 }
+.subscription-btn:active,
+.subscription-btn:hover {
+  background-color: var(--color-Red);
+}
 .error-input {
   color: var(--color-Red);
   border: calc(0.01rem) solid var(--color-Red);
@@ -94,8 +94,8 @@ input:focus {
 }
 .error-message {
   color: var(--color-Red);
-  font-size: calc(12px);
-  margin-top: calc(5px);
+  font-size: calc(0.75rem);
+  margin-block-start: calc(0.3125rem);
 }
 .label-and-errorMessage {
   display: flex;
