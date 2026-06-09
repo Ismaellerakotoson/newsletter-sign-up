@@ -7,7 +7,7 @@ It allows users to subscribe to a newsletter and displays a success message afte
 
 ## 📸 Preview
 
-![](images/preview.png)
+![](images/preview_.png)
 
 ---
 
