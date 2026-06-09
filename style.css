@@ -22,7 +22,7 @@ main {
   border-radius: calc(1.5rem);
 }
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--color-Blue-800);
 }
@@ -32,7 +32,7 @@ h1 {
 ul {
   list-style: none;
   padding: calc(0rem);
-  margin-block: calc(2.5url(c:/Users/ISMAELLE/Downloads/screencapture-127-0-0-1-5500-index-html-2026-06-09-22_16_12.png)rem);
+  margin-block: calc(3rem);
 }
 li {
   display: flex;
